@@ -1,4 +1,4 @@
-# Day 2
+# Day 2 - 47x Performance improvement, while killing readability and reuseability
 
 This was a really interesting task, after not being able to authenticate and view the task there were still some problems to come;
 
