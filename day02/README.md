@@ -8,8 +8,8 @@ The first solution I created is in main.go and it shows a balance between readab
 After finally solving the challenge I was really happy until I saw the runtime.. Turns out FscanF is really slow, even rob pike hates it. Well I didn't know so I have to optimize
 * https://github.com/golang/go/issues/12275#issuecomment-133796990
 
-Usually I optimize my code a little bit after a solve and committ the changes, but this time I went a little crazy, chasing as low exec time as possible. The result of that is what you see below.
-* This isn't good code at all, but it's interesting that the functionality is preserved and the exec time went from 0.9 to 0.19 all because of these optimization
+Usually I optimize my code a little bit after a solve and commit the changes, but this time I went a little crazy, chasing as low exec time as possible. The result of that is what you see below.
+* This isn't good code at all, but it's interesting that the functionality is preserved and the exec time went from 0.9 to 0.019 all because of these optimization
 
 ```go
 package main
