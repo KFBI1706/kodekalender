@@ -1,4 +1,4 @@
-package day1
+package main
 
 import (
 	"fmt"
@@ -13,7 +13,7 @@ func check(e error) {
 	}
 }
 
-func Solve() {
+func main() {
 	dat, err := ioutil.ReadFile("./input-vekksort.txt")
 	check(err)
 	var sum, big, curr int
