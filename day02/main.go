@@ -20,7 +20,6 @@ func (l Line) slope() float32 {
 }
 
 func main() {
-	//defer profile.Start().Stop()
 	lines := make([]Line, 0)
 	cnt := make(map[float32]int)
 	file, err := os.Open("./input-rain.txt")
