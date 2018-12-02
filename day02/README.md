@@ -9,7 +9,7 @@ After finally solving the challenge I was really happy until I saw the runtime..
 * https://github.com/golang/go/issues/12275#issuecomment-133796990
 
 Usually I optimize my code a little bit after a solve and committ the changes, but this time I went a little crazy, chasing as low exec time as possible. The result of that is what you see below.
-**** This isn't good code at all, but it's interesting that the functionality is preserved and the exec time went from 0.9 to 0.19 all because of these optimization
+* This isn't good code at all, but it's interesting that the functionality is preserved and the exec time went from 0.9 to 0.19 all because of these optimization
 
 ```go
 package main
@@ -55,7 +55,8 @@ func main() {
 		}
 	}
 	fmt.Println(big)
-}```
+}
+```
 
 pprof cpu graphs compared:
 * Unoptimized and readable: https://loot.kfbi.xyz/9517a0f2-60df-4fdb-87f5-5142526a7deb.jpg
