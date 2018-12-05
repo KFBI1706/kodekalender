@@ -2,3 +2,5 @@ github.com/chai2010/cgo v0.0.0-20160908221537-4881a422e0ce h1:lcfFiY6VUuNVAL2V7u
 github.com/chai2010/cgo v0.0.0-20160908221537-4881a422e0ce/go.mod h1:0Fa/AQywYvKtIKA9KEgL48kzJ8a+OG+eBVE65lxvHPU=
 github.com/pkg/profile v1.2.1 h1:F++O52m40owAmADcojzM+9gyjmMOY/T4oYJkgFDH8RE=
 github.com/pkg/profile v1.2.1/go.mod h1:hJw3o1OdXxsrSjjVksARp5W95eeEaEfptyVZyv6JUPA=
+github.com/zdebeer99/goexpression v0.0.0-20150219185509-b35b522126da h1:0eppkURh6qYRxaW0TLO4NYJopDNNdHSj/u57nBULvbE=
+github.com/zdebeer99/goexpression v0.0.0-20150219185509-b35b522126da/go.mod h1:n27QK0nsHJTs+elh+FSrIeYjaL484I+d3CwFfNY+oxs=
