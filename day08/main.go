@@ -34,6 +34,7 @@ func main() {
 	sort.Slice(dolls, func(i, j int) bool {
 		return dolls[i].height > dolls[j].height
 	})
+
 	var maxSize int
 	for i, d := range dolls {
 		arr := []doll{d}
@@ -47,4 +48,5 @@ func main() {
 		}
 	}
 	fmt.Println(maxSize)
+
 }
