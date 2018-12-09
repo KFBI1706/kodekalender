@@ -46,6 +46,8 @@ github.com/golangci/unparam v0.0.0-20180902112548-7ad9dbcccc16/go.mod h1:KW2L33j
 github.com/hashicorp/hcl v0.0.0-20180404174102-ef8a98b0bbce/go.mod h1:oZtUIOe8dh44I2q6ScRibXws4Ajl+d+nod3AaR9vL5w=
 github.com/hpcloud/tail v1.0.0/go.mod h1:ab1qPbhIpdTxEkNHXyeSf5vhxWSCs/tWer42PpOxQnU=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
+github.com/johnny-morrice/anagram v0.0.0-20170429141324-c70efacc3a7a h1:JFqsBwTpzNGO5Iurl8/tN3usOHsCzE0UWCUsvZz4Q4c=
+github.com/johnny-morrice/anagram v0.0.0-20170429141324-c70efacc3a7a/go.mod h1:0a0wvkK5kmcOeIMG5u/Cfk8gVtzcjPoBtE8rcShiNTg=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/kr/pretty v0.1.0 h1:L/CwN0zerZDmRFUapSPitk6f+Q3+0za1rQkzVuMiMFI=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
@@ -77,6 +79,8 @@ github.com/spf13/jwalterweatherman v0.0.0-20180109140146-7c0cea34c8ec/go.mod h1:
 github.com/spf13/pflag v1.0.1/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnInEg4=
 github.com/spf13/viper v1.0.2/go.mod h1:A8kyI5cUJhb8N+3pkfONlcEcZbueH6nhAm0Fq7SrnBM=
 github.com/stretchr/testify v1.2.1/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
+github.com/texttheater/golang-levenshtein v0.0.0-20180516184445-d188e65d659e h1:T5PdfK/M1xyrHwynxMIVMWLS7f/qHwfslZphxtGnw7s=
+github.com/texttheater/golang-levenshtein v0.0.0-20180516184445-d188e65d659e/go.mod h1:XDKHRm5ThF8YJjx001LtgelzsoaEcvnA7lVWz9EeX3g=
 github.com/y0ssar1an/q v1.0.6 h1:EI3hLE6adpWEx6Y+rcN2pX5DnkNn6Dc4sXvdeMM/gMA=
 github.com/y0ssar1an/q v1.0.6/go.mod h1:mhQlhiAVSUQPn/otPrNUx+yCrJMj7DFUuTY6L1qMq60=
 github.com/zdebeer99/goexpression v0.0.0-20150219185509-b35b522126da h1:0eppkURh6qYRxaW0TLO4NYJopDNNdHSj/u57nBULvbE=
