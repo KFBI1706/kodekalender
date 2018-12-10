@@ -19,8 +19,6 @@ type hash struct {
 	PrevHash, NextHash *hash
 }
 
-var chain []hash
-
 func main() {
 	chain := make([]hash, 0)
 	dat, err := ioutil.ReadFile("./input-hashchain.json")
@@ -29,7 +27,7 @@ func main() {
 	check(err)
 	for i := 0; i < len(chain); i++ {
 		for j := 0; j < len(chain); j++ {
-			if fmt.Sprintf("%x", md5.Sum([]byte(chain[j].Hash+chain[i].Char))) == chain[i].Hash {
+			if chain[j].NextHash == nil && chain[i].PrevHash == nil && fmt.Sprintf("%x", md5.Sum([]byte(chain[j].Hash+chain[i].Char))) == chain[i].Hash {
 				chain[j].NextHash = &chain[i]
 				chain[i].PrevHash = &chain[j]
 			}
