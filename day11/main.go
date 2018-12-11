@@ -3,8 +3,6 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"strconv"
-	"strings"
 )
 
 func check(e error) {
@@ -13,29 +11,23 @@ func check(e error) {
 	}
 }
 func main() {
-	var x, y, n int
-	dat, err := ioutil.ReadFile("./input-crisscross.txt")
+	var x, y, n int16
+	var LEN, i uint32
+	var b byte
+	LEN = 20000000
+	b = 48
+	dat, err := ioutil.ReadFile("/tmp/input-crisscross.txt")
 	check(err)
-	order := make([]rune, 0)
-	nums := strings.FieldsFunc(strings.Split(string(dat), "\n")[0], func(r rune) bool {
-		switch r {
-		case 'H', 'V', 'F', 'B':
-			order = append(order, r)
-			return true
-		}
-		return false
-	})
-
-	for i := 0; i < len(nums); i++ {
-		n, _ = strconv.Atoi(nums[i])
-		switch order[i] {
-		case 'H':
+	for i = 1; i < LEN; i += 2 {
+		n = int16(dat[i-1] & ^b)
+		switch dat[i] {
+		case 72: //H 64, 8
 			x += n
-		case 'V':
+		case 86: //V 64, 16, 4, 2
 			x -= n
-		case 'F':
+		case 70: //F 64, 4, 2
 			y += n
-		case 'B':
+		case 66: //B 64, 2
 			y -= n
 		}
 	}
