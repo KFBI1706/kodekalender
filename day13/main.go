@@ -20,6 +20,7 @@ func sumTo(arr []int, target int) bool {
 	}
 	return cnt == 1
 }
+
 func sieveOfEratosthenes(value int) (primes []int) {
 	f := make([]bool, value)
 	for i := 2; i <= int(math.Sqrt(float64(value))); i++ {
