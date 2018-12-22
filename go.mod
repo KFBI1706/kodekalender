@@ -1,6 +1,7 @@
 module github.com/KFBI1706/go-kodekalender
 
 require (
+	github.com/Arafatk/glot v0.0.0-20180312013246-79d5219000f0
 	github.com/chai2010/cgo v0.0.0-20160908221537-4881a422e0ce // indirect
 	github.com/johnny-morrice/anagram v0.0.0-20170429141324-c70efacc3a7a // indirect
 	github.com/pkg/profile v1.2.1 // indirect
