@@ -1,4 +1,4 @@
-#Day 20 - FIRST!
+# Day 20 - FIRST!
 
 Today was a fun day. I managed to be first and use some cool Go concepts along the way. And I think this is an example of a task where Go really shines. You can do fairly complicated stuff, while everything is still readable and it's all easy to write.
 
