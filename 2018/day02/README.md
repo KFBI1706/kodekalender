@@ -59,6 +59,7 @@ func main() {
 ```
 
 pprof cpu graphs compared:
-* Unoptimized and readable: https://loot.kfbi.xyz/9517a0f2-60df-4fdb-87f5-5142526a7deb.jpg
-
-* Optimized: https://loot.kfbi.xyz/4e43568e-5d6c-4bfe-8268-19578ed3168d.jpg
+## Unoptimized:
+* ![Unoptimized and readable](../static/unoptimized.jpg)
+## Optimized
+* ![Optimized](../static/optimized.jpg)

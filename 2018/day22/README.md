@@ -10,4 +10,4 @@ What I've learned form this task is that I'm not really that creative and I don'
 
 And ending on a positive note, I got to try gplot a plotting library for Go and I was pleasantly surprised as with most go libraries.
 
-![Coordinate plot](./circle.png "Circle")
+![Coordinate plot](../static/circle.png "Circle")

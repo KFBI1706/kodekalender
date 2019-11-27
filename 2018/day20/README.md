@@ -8,4 +8,4 @@ Even though this task wasn't very hard the fact that you can create a custom typ
 
 I went over the code and commented the important parts, enjoy!
 
-https://loot.kfbi.xyz/eeff1afd-08cf-4ee5-ab77-ec1b8b3de0ef.jpg
+![first2](../static/first2.jpg)
