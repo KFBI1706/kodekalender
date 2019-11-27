@@ -9,3 +9,5 @@ require (
 	github.com/y0ssar1an/q v1.0.6
 	github.com/zdebeer99/goexpression v0.0.0-20150219185509-b35b522126da // indirect
 )
+
+go 1.13

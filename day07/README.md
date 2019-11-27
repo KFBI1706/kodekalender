@@ -1,4 +1,4 @@
-#Day 7 - A late one, but a good one
+# Day 7 - A late one, but a good one
 
 I have to admit, it's hard to keep track of when to release the solutions, anyways here it goes.
 
